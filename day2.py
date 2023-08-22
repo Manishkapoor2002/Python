@@ -48,3 +48,29 @@ cout = 1
 while cout <=10:
     print(TableOF," * ",cout," = ",TableOF * cout)
     cout = cout + 1
+
+n = int(input("Enter Number to get sum till 1 : "))
+sum = 0
+while n >=1:
+    sum = sum + n
+    n = n -1
+
+print("Sum from 1 to ", n , " is ", sum)
+
+
+FirstNum = int(input("Enter First number : "))
+SecondNum = int(input("Enter Second number : "))
+SumOF = 0
+
+if(FirstNum>SecondNum):
+    Min = SecondNum
+    Max = FirstNum
+else:
+    Min = FirstNum
+    Max = SecondNum
+
+while(Min <= Max):
+    SumOF = SumOF + Min
+    Min = Min + 1
+
+print("Sum of All numbers between ", FirstNum ," and " , SecondNum ," = ", SumOF)
