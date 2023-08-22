@@ -17,3 +17,20 @@ if(checkNum % 2 == 0):
     print(checkNum , " is Even")
 else:
     print(checkNum," is odd")
+
+# Nested if and Multi-way ,if else-if Statement:
+Marks = int(input("Enter your marks: "))
+
+if(Marks >= 90):
+    grade = 'A'
+elif(Marks >=80):
+    grade = 'B'
+elif(Marks >= 70):
+    garde = 'C'
+elif(Marks >= 60):
+    grade = 'D'
+else:
+    grade = 'F'
+
+
+print("You Score : ",grade)
