@@ -34,3 +34,17 @@ else:
 
 
 print("You Score : ",grade)
+
+# While loop
+count = 0
+
+while count <=10:
+    print(count , "Happy")
+    count = count + 1
+
+# Table using While
+TableOF = int(input("Enter Number : "))
+cout = 1
+while cout <=10:
+    print(TableOF," * ",cout," = ",TableOF * cout)
+    cout = cout + 1
