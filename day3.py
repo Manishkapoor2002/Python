@@ -51,7 +51,17 @@ import math
 
 # Draw patter using for loop:
 
-for i in range(1, 6):
+# for i in range(1, 11):
+#     for j in range(1,i+1):
+#         print("@", end=" __ ")
+#     print("\n")
+
+
+for i in range(0, 6):
     for j in range(1,i+1):
-        print("@", end=" _ ")
+        if i %2 == 0:
+            print("#", end=" ")
+        else:
+            print("@", end=" ")
+
     print("\n")
