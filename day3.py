@@ -25,25 +25,33 @@ import math
 
 # For else : (Prime or not using For loop and for else)
 
-num = int(input("Enter any Number : "))
-flag  =1
+# num = int(input("Enter any Number : "))
+# flag  =1
 
-n = int(math.sqrt(num))
-# print(n)
-for i in range(2,n):
-    if(num%i==0):
-        flag = 0
-        break
+# n = int(math.sqrt(num))
+# # print(n)
+# for i in range(2,n):
+#     if(num%i==0):
+#         flag = 0
+#         break
 
-if flag == 1:
-    print("It's a Prime number")
-else:
-    print("It's not a prime number")
+# if flag == 1:
+#     print("It's a Prime number")
+# else:
+#     print("It's not a prime number")
 
 
-for i in range(2,n):
-    if(num%i==0):
-        print("It's not a prime number")
-        break
-else:
-    print("It's a prime number")
+# for i in range(2,n):
+#     if(num%i==0):
+#         print("It's not a prime number")
+#         break
+# else:
+#     print("It's a prime number")
+
+
+# Draw patter using for loop:
+
+for i in range(1, 6):
+    for j in range(1,i+1):
+        print("@", end=" _ ")
+    print("\n")
