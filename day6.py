@@ -21,10 +21,17 @@
 # print(Set)
 # print(id(Set))
 
-set1 = {1,2,4,6,8}
-set2 = {2,5,8,0,2,7}
-print(set1.union(set2))
-print(set1.intersection(set2))
-print(set1.difference(set2))
+# set1 = {1,2,4,6,8}
+# set2 = {2,5,8,0,2,7}
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+# print(set1.difference(set2))
 
+# dictionary 
+fruit = {"Apple":15,"Banana":12,"Orange":5}
+print(fruit)
+
+print(fruit.keys())
+print(fruit.values())
+print(type(fruit))
 
