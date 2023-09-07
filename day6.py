@@ -27,10 +27,9 @@
 # print(set1.intersection(set2))
 # print(set1.difference(set2))
 
-# dictionary 
+# dictionary
 fruit = {"Apple":15,"Banana":12,"Orange":5}
 print(fruit)
-
 print(fruit.keys())
 print(fruit.values())
 print(type(fruit))
