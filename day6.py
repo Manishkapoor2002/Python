@@ -33,4 +33,3 @@ print(fruit)
 print(fruit.keys())
 print(fruit.values())
 print(type(fruit))
-
