@@ -12,7 +12,6 @@ for i in range(3,1000):
 
             count = count + 1
 
-        # print("Number is Prime : ", i)
         temp = i
 print(count)
 
